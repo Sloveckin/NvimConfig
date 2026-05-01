@@ -102,3 +102,12 @@ require('nvim-autopairs').setup(
     map_c_w = false, -- map <c-w> to delete a pair if possible
 }
 )
+
+
+-- Treesitter
+vim.pack.add({
+    { src = "https://github.com/nvim-treesitter/nvim-treesitter"}
+})
+
+require('nvim-treesitter').install {'rust', 'c', 'cpp'}
+
