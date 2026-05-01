@@ -1,10 +1,7 @@
 vim.pack.add({
-    {src = "https://github.com/folke/tokyonight.nvim"},
     {src = "https://github.com/mason-org/mason.nvim"},
     {src = "https://github.com/nvim-lualine/lualine.nvim"},
 })
-
-require("tokyonight").setup({})
 
 require("mason").setup({})
 
@@ -111,3 +108,6 @@ vim.pack.add({
 
 require('nvim-treesitter').install {'rust', 'c', 'cpp'}
 
+vim.pack.add({
+    { src = "https://github.com/catppuccin/catppuccin"}
+})
