@@ -1,6 +1,6 @@
 require("config")
 require("mapping")
-require("plugin")
+require("plugins")
 require("lsp")
 
 vim.cmd.colorscheme "catppuccin"
